@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="rps.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Graduate&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <main>
+        <a id="home" href="index.html">Go back</a>
+        <header>
+            <h1>Rock, Paper, Scissors</h1>
+        </header>
+        <div class="content">
+            <p id="instructions">Choose either rock, paper or scissors to start the game!</p>
+            <div class="gameboard" id="weapons">
+                <button id="rock"><span>✊</span></button>
+                <button id="paper"><span>✋</span></button>
+                <button id="scissors"><span>✌️</span></button>
+            </div>
+            <div class="gameboard">
+                <div class="choices">
+                    <div id="user-choice"></div>
+                    <div class="emoji" id="user-image"></div>
+                </div>
+                <div class="choices" id="computer-choice-container">
+                    <div id="computer-choice"></div>
+                    <div class="emoji" id="computer-image"></div>
+                </div>
+            </div>
+            <div id="results"></div>
+            <div id="final-result"></div>
+            <div class="bottom-buttons">
+                <button id="next-round" type="button" onClick="nextRound()">Next round</button>
+                <button id="play-again" type="button" onClick="playAgain()">Click here to play again</button>
+            </div>
+            <div class="running-totals">
+                <div id="user-running-total"></div>
+                <div id="computer-running-total"></div>
+            </div>
+            
+        </div>
+        <footer>
+            <h6>Made by NicFie</h6>
+        </footer>
+
+    </main>
+    <script src="rps.js"></script> 
+</body>
+
+</html>

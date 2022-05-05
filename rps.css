@@ -1,0 +1,160 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content {
+    flex: 1 0 auto;
+    font-family: 'Bungee Inline' ,cursive;
+    background-image: url("https://images.unsplash.com/photo-1558273246-57d22047406d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+    background-repeat: repeat-x;
+    background-size: contain;    
+}
+
+button {
+    font-family: 'Bungee Inline', cursive;
+    background-color: black;
+}
+
+#weapons button {
+    border-radius: 50%;
+    padding: 20px;
+    margin: 20px;
+}
+
+.emoji {
+    background-color: black;
+    padding: 20px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    visibility: hidden;
+}
+
+header {
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: white;
+    
+}
+
+span {
+    font-size: 75px;
+}
+
+
+p {
+    font-family: 'Bungee Inline', cursive;
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 30px;
+    
+}
+
+.gameboard {
+    display: flex;
+    justify-content: center;
+    /*gap: 50px;*/
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 30px;
+    
+
+}
+
+.choices {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 20%;
+    padding: 10px 50px;
+    background-color: rgb(245, 45, 111);
+    visibility: hidden;
+    border-radius: 5px;
+}
+
+#results {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 30px;
+    padding: 50px;
+    padding-bottom: 10px;
+    
+}
+
+#final-result {
+    color: rgb(255, 196, 0);
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 50px;
+}
+
+.running-totals {
+    color: white;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-size: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    visibility: hidden;
+}
+
+.running-totals div {
+    background-color: rgb(0, 255, 251);
+    padding: 10px 30px;
+    border-radius: 5px;
+    width: 25%;
+}
+
+.bottom-buttons {
+    margin: 10px;
+
+    
+}
+
+.bottom-buttons button {
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+footer {
+    flex-shrink: 0;
+    background-color: black;
+    color: white;
+    
+}
+
+#play-again, #next-round {
+    display: none;
+    margin: auto;
+    /*width: 20%;*/
+    height: auto;
+    padding: 20px;
+}
+
+
+
+img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(30, 29, 29);
+    box-shadow: 0px 0px 5px 2px white;
+}
+
+#home {
+    background-color: black;
+    color: white;
+    text-align: left;
+    font-size: 30px;
+}

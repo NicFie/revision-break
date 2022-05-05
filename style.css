@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+main {
+    flex: 1 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    flex-shrink: 0;
+    
+}
+
+header, footer {
+    background-color: rgb(1, 1, 57);
+    color: white;
+}
+
+header {
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    text-shadow: -2px -2px rgb(247, 194, 6);
+    color: rgb(239, 239, 239);
+}
+
+#etch {
+    background-color: lightblue;
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+}
+
+#rps {
+    background-color: black;
+    font-family: 'Press Start 2P', sans-serif;
+    color: white;
+    font-size: 40px;
+
+}
+
+#drums {
+    background-color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffc600;
+    font-size: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
